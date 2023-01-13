@@ -20,6 +20,7 @@ let merchandising = [
         price: 24.00,
         img: "../img/featured3.png"
     }
+    
 ]
 
 
@@ -115,7 +116,7 @@ function printproductPrice(){
     const arrayobj = Object.values(objCart)
     if(!arrayobj.length){
         cartcontainer.innerHTML = `<div class="cart-empty">
-        <img src="./assets/empty-cart.png" alt="">
+        <img src="./img/empty-cart.png" alt="">
         <h2>Your cart is empty</h2>
         <p> You can add items to your cart by clicking ond <i class="bx bx-plus"></i>
         </p>
